@@ -1,6 +1,7 @@
 import React from 'react'
 import './sidebar.scss'
 import {LineStyle, Timeline, TrendingUp, PermIdentity, AttachMoney, EqualizerOutlined, MailOutline, Feedback, ChatBubbleOutline, Report, CallToAction} from '@material-ui/icons'
+import { Link } from '@material-ui/core'
 
 export default function Sidebar() {
     return (
@@ -26,14 +27,18 @@ export default function Sidebar() {
                 <div className="sidebarMenu">
                     <h3 className="sidebarTitle">Quick Menu</h3>
                     <ul className="sidebarList">
+                        <Link to="/users" className="link">
                         <li className="sidebarListItems">
                             <PermIdentity/>
                             Users
                         </li>
+                        </Link>
+                        <Link to="/products" className="link">
                         <li className="sidebarListItems">
                             <Timeline/>
                             Products
                         </li>
+                        </Link>
                         <li className="sidebarListItems">
                             <AttachMoney/>
                             Transactions
