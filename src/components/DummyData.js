@@ -117,4 +117,73 @@
 },
     
   ];
+
+
+
+
+
+  
+ export const productRows = [
+  { id: 1, name: 'Air Pods', 
+  img: "https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260",
+  stock: 123,
+   status: 'active',
+   price: '$80.00'
+},
+  { id: 2, name: 'Air Pods', 
+  img: "https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260",
+   stock: 123,
+   status: 'active',
+   price: '$80.00'
+},
+  { id: 3, name: 'Air Pods', 
+  img: "https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260",
+   stock: 123,
+   status: 'active',
+   price: '$80.00'
+},
+  { id: 4, name: 'Air Pods', 
+  img: "https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260",
+   stock: 123,
+   status: 'active',
+   price: '$80.00'
+},
+  { id: 5, name: 'Air Pods', 
+  img: "https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260",
+   stock: 123,
+   status: 'active',
+   price: '$80.00'
+},
+  { id: 6, name: 'Air Pods', 
+  img: "https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260",
+  stock: 123,
+   status: 'active',
+   price: '$80.00'
+},
+  { id: 7, name: 'Air Pods', 
+  img: "https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260",
+  stock: 123,
+   status: 'active',
+   price: '$80.00'
+},
+  { id: 8, name: 'Air Pods', 
+  img: "https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260",
+  stock: 123,
+   status: 'active',
+   price: '$80.00'
+},
+  { id: 9, name: 'Air Pods', 
+  img: "https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260",
+  stock: 123,
+   status: 'active',
+   price: '$80.00'
+},
+  { id: 10, name: 'Air Pods', 
+   img: "https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260",
+   stock: 123,
+   status: 'active',
+   price: '$80.00'
+},
+  
+];
   

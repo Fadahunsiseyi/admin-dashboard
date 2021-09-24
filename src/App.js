@@ -13,6 +13,7 @@ import {
 } from "react-router-dom";
 import User from "./components/pages/user/User";
 import NewUser from "./components/pages/newUser/NewUser";
+import ProductList from "./components/pages/productList/ProductList"; 
 
 
 function App() {
@@ -32,6 +33,15 @@ function App() {
          <User/>
          </Route>
          <Route path="/newUser">
+         <NewUser/>
+         </Route>
+         <Route path="/products">
+         <ProductList/>
+         </Route>
+         <Route path="/product/:productId">
+         <User/>
+         </Route>
+         <Route path="/newproduct">
          <NewUser/>
          </Route>
        </Switch>
