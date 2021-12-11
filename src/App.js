@@ -14,12 +14,14 @@ import {
 import User from "./components/pages/user/User";
 import NewUser from "./components/pages/newUser/NewUser";
 import ProductList from "./components/pages/productList/ProductList"; 
+import NewProduct from "./components/pages/newProduct/NewProduct"; 
+import Product from "./components/pages/product/Product";
 
 
 function App() {
   return (
     <Router className="App">
-     <TopBar/>
+     {/* <TopBar/> */}
      <div className="container">
        <Sidebar/>
        <Switch>
@@ -39,10 +41,10 @@ function App() {
          <ProductList/>
          </Route>
          <Route path="/product/:productId">
-         <User/>
+         <Product/>
          </Route>
          <Route path="/newproduct">
-         <NewUser/>
+         <NewProduct/>
          </Route>
        </Switch>
      </div>
