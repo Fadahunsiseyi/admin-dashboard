@@ -5,19 +5,51 @@
 .sidebar{
     background-color: $brand_dark;
     flex: 1;
-    height: 100vh;
-    position: sticky;
-    // top: 50px;
+    height: 200vh;
+    // position: sticky;
 
 
     .sidebarWrapper {
-        padding: 20px;
+        padding: 2px;
         margin: 10px;
-        background-color: red;
         color: $color_white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
 
         .sidebarHeader{
             text-align: center;
+            margin-bottom: 30px;
+        }
+        .sidebarUserInfoHeader{
+            margin: 30px 0px;
+            text-align: center;
+            background-color: $brand_accent;
+
+            .sidebarUserInfo{
+                padding: 10px;
+            }
+        }
+        .sidebarMainMenu{   
+            width: 100%;
+            margin-bottom: 15px;
+            .dashboardInfo {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                margin-bottom: 10px;
+                padding: 10px;
+                &:hover {
+                    cursor: pointer;
+                    background-color: $border_grey_dark; 
+                }
+                .dashboardInfoIcon{
+                    margin-right: 5px;
+                }
+                .dashboardInfoTitle{
+                    margin-left: 3px;
+                }
+            }
         }
     }
 }
