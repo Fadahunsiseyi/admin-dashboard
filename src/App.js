@@ -1,3 +1,4 @@
+import React from "react";
 import Sidebar from "./components/sidebar/Sidebar";
 import TopBar from "./components/topbar/Topbar";
 import './app.css'
