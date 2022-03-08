@@ -1,7 +1,7 @@
 import React from 'react'
 import './sidebar.scss'
 import {LineStyle, Timeline, TrendingUp, PermIdentity, AttachMoney, EqualizerOutlined, MailOutline, Feedback, ChatBubbleOutline, Report, CallToAction} from '@material-ui/icons'
-import { Link } from '@material-ui/core'
+import { Link } from 'react-router-dom'
 
 export default function Sidebar() {
     return (
@@ -10,18 +10,24 @@ export default function Sidebar() {
                 <div className="sidebarMenu">
                     <h3 className="sidebarTitle">Dashboard</h3>
                     <ul className="sidebarList">
+                    <Link to="/">
                         <li className="sidebarListItems active">
                             <LineStyle className="sidebarIcon"/>
                             Home
                         </li>
+                        </Link>
+                        <Link to="/">
                         <li className="sidebarListItems">
                             <Timeline className="sidebarIcon"/>
                             Analytics
                         </li>
+                        </Link>
+                        <Link to="/">
                         <li className="sidebarListItems">
                             <TrendingUp className="sidebarIcon"/>
                             Sales
                         </li>
+                        </Link>
                     </ul>
                 </div>
                 <div className="sidebarMenu">

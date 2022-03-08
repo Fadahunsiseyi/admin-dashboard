@@ -1,6 +1,6 @@
 import Sidebar from "./components/sidebar/Sidebar";
 import TopBar from "./components/topbar/Topbar";
-import './app.css'
+import './App.css'
 import Home from "./components/pages/home/Home";
 import UserList from "../src/components/pages/userList/UserList";
 
