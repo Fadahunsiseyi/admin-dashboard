@@ -3,8 +3,6 @@ import TopBar from "./components/topbar/Topbar";
 import './App.css'
 import Home from "./components/pages/home/Home";
 import UserList from "../src/components/pages/userList/UserList";
-
-
 import {
   BrowserRouter as Router,
   Switch,
@@ -16,7 +14,9 @@ import NewUser from "./components/pages/newUser/NewUser";
 import ProductList from "./components/pages/productList/ProductList"; 
 
 
+
 function App() {
+
   return (
     <Router className="App">
      <TopBar/>
